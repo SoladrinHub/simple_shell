@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
+void shell_print(const char *info);
 
 #endif
