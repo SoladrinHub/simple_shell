@@ -8,6 +8,8 @@
 
 void shell_print(const char *info);
 void prompt_displayer(void);
+void exec_command(command);
+void read_input(command, sizeof(command));
 void exec_command(const char *command);
 void read_input(char *command, size_t size);
 
