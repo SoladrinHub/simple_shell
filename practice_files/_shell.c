@@ -8,5 +8,5 @@ int main(void)
 	{
 		prompt_displayer();
 	}
-	return 0;
+	return (0);
 }
