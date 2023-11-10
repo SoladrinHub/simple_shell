@@ -1,5 +1,11 @@
 #include "_shell.h"
 
+/**
+ * read_input - function
+ * @command: first argument
+ * @size: second argument
+ */
+
 void read_input(char *command, size_t size)
 {
 	if (fgets(command, size, stdin) == NULL)
