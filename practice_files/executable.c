@@ -1,5 +1,10 @@
 #include "_shell.h"
 
+/**
+ * exec_command - function name
+ * @command: command
+*/
+
 void exec_command(const char *command)
 {
 	pid_t min_pid = fork();
