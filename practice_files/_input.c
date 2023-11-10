@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "_shell.h"
 
 void read_input(char *command, size_t size)
 {
@@ -15,5 +15,5 @@ void read_input(char *command, size_t size)
 			exit(EXIT_FAILURE);
 		}
 	}
-	commamd[strcspn(command, "\n")] = '\0';
+	command[strcspn(command, "\n")] = '\0';
 }
