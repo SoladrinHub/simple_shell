@@ -22,6 +22,6 @@ void exec_command(const char *command)
 	}
 	else
 	{
-		min_pid = wait(NULL);
+		wait(NULL);
 	}
 }

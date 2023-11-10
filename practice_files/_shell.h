@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <string.h>
+#include <sys/wait.h>
 
 void shell_print(const char *info);
 void prompt_displayer(void);
