@@ -15,8 +15,8 @@ void exec_command(const char *command)
 		perror("execlp");
 		exit(EXIT_FAILURE);
 	}
-	else 
+	else
 	{
-		wait(NULL);
+		min_pid = wait(NULL);
 	}
 }
