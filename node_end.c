@@ -20,7 +20,7 @@ list_path *node_end(list_path **head, char *dir)
 	p_new_element->next = NULL;
 
 	aux_head = *head;
-	
+
 	if (aux_head == NULL)
 		*head = p_new_element;
 	else
